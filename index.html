@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/logo.svg"
+    />
+
+    <title>UK Casinos Guide 2025</title>
+
+    <!-- <script
+      id="cookieyes"
+      type="text/javascript"
+      src="https://cdn-cookieyes.com/client_data/99bc47ccdcb7f369bd3fca25/script.js"
+    ></script> -->
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <div
+      id="agePopup"
+      style="
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.88);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        font-family: 'Roboto', sans-serif;
+      "
+    >
+      <div
+        style="
+          background-color: #020133;
+          border: 1px solid #1a085a;
+          border-radius: 16px;
+          padding: 40px 30px;
+          max-width: 420px;
+          width: 90%;
+          box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+          text-align: center;
+        "
+      >
+        <h2
+          style="
+            font-size: 28px;
+            color: #e0ffff;
+            margin-bottom: 16px;
+            font-weight: 700;
+          "
+        >
+          Age Confirmation
+        </h2>
+
+        <p
+          id="agePopupText"
+          style="
+            font-size: 16px;
+            color: #a0f0e0;
+            margin-bottom: 24px;
+            line-height: 1.6;
+          "
+        >
+          Are you 18 years old or older?
+        </p>
+
+        <div
+          id="agePopupButtons"
+          style="
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+          "
+        >
+          <button
+            onclick="allowAccess()"
+            style="
+              background-color: #6243eb;
+              padding: 12px 24px;
+              border-radius: 8px;
+              color: #ffffff;
+              font-size: 16px;
+              font-weight: 700;
+              cursor: pointer;
+              border: none;
+              transition: background-color 0.3s ease;
+            "
+          >
+            Yes, I’m 18 and older
+          </button>
+
+          <button
+            onclick="denyAccess()"
+            style="
+              background-color: #d87605;
+              color: #a0f0e0;
+              padding: 12px 24px;
+              border-radius: 8px;
+              font-size: 16px;
+              font-weight: 700;
+              cursor: pointer;
+              border: none;
+              transition: background-color 0.3s ease;
+            "
+          >
+            No, I’m under 18
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="page" style="display: none">
+      <header class="mainHeader">
+        <div class="content-container">
+          <div class="header">
+            <div class="desktopHeader">
+              <div class="desktopLogoContainer">
+                <a href="/">
+                  <span class="logo"
+                    >UK<span style="color: #48d2cc">Casinos</span>Guide</span
+                  >
+                </a>
+              </div>
+
+              <div class="desktopMenuContainer">
+                <div class="headerLink">
+                  <a href="/contact_us/">Contact Us</a>
+                </div>
+                <div class="headerLink">
+                  <a href="/responsible_gambling/">Responsible Gambling</a>
+                </div>
+                <div class="headerLink">
+                  <a href="/Registration/">Registration</a>
+                </div>
+                <div class="headerLink">
+                  <a href="/Bonus/">Bonus</a>
+                </div>
+                <div class="headerLink">
+                  <a href="/Exclusive/">Exclusive</a>
+                </div>
+                <div class="headerLink">
+                  <a href="/Top/">Top 10</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mobileHeader">
+              <div class="mobileLogoContainer">
+                <a href="/">
+                  <span class="logo"
+                    >UK<span style="color: #48d2cc">Casinos</span>Guide</span
+                  >
+                </a>
+              </div>
+
+              <div class="mobileMenuBurger">
+                <img
+                  src="/assets/img/game-icons_hamburger-menu.png"
+                  alt="game-icons_hamburger-menu"
+                  id="hamburgerMenuIcon"
+                />
+              </div>
+
+              <div class="mobileMenuContainer">
+                <div class="mobileMenuClose">
+                  <img
+                    src="/assets/img/icons_caret-down.png"
+                    alt="icons_hamburger"
+                  />
+                </div>
+                <nav class="mobileNav">
+                  <a href="/contact_us/">Contact Us</a>
+                  <a href="/responsible_gambling/">Responsible Gambling</a>
+                  <a href="/Registration/">Registration</a>
+                  <a href="/Bonus/">Bonus</a>
+                  <a href="/Exclusive/">Exclusive</a>
+                  <a href="/Top/">Top 10</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="bodyMainWrap">
+        <div class="top-container">
+          <div class="bodyTop">
+            <h1 class="bodyTopTitle">
+              Best <span class="redText">Online Casino</span> in the UK – 2025
+            </h1>
+            <p class="bodyTopDesc">
+              Discover the top UK casinos with UK Casinos Guide. We bring you a
+              curated selection of the most trusted online platforms across the
+              UK, offering everything from generous welcome bonuses and
+              exclusive free spins to standout promotions. Play smart with
+              expert-picked deals tailored for British players.
+            </p>
+
+            <div class="bodyTopUtils">
+              <div class="bodyTopUtilsItem">
+                <img
+                  src="/assets/img/header/icon1.png"
+                  alt="icon1"
+                  class="haederIcon"
+                />
+                <p class="headerUtilsItemText">Secure & Licensed</p>
+              </div>
+              <div class="bodyTopUtilsItem">
+                <img
+                  src="/assets/img/header/icon2.png"
+                  alt="icon1"
+                  class="haederIcon"
+                />
+                <p class="headerUtilsItemText">Fast Withdrawals</p>
+              </div>
+              <div class="bodyTopUtilsItem">
+                <img
+                  src="/assets/img/header/icon3.png"
+                  alt="icon1"
+                  class="haederIcon"
+                />
+                <p class="headerUtilsItemText">Approved by UK residents</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bodyCont">
+          <div class="container">
+            <section class="offerMainWrap">
+              <ul class="offers-list" id="offers_list"></ul>
+            </section>
+          </div>
+
+          <section class="text-info-section">
+            <div class="textBlock">
+              <h2>UK Online Casino Directory</h2>
+              <p>
+                The UK’s online casino landscape is constantly evolving, with
+                platforms employing creative strategies to keep players engaged.
+                From live dealer promotions to tailored loyalty rewards, these
+                features aim to replicate the thrill of a physical casino while
+                enhancing user interaction and retention.
+              </p>
+              <p>
+                <strong>Best UK Online Casinos</strong> <br />
+                Some online casinos occasionally offer no-deposit bonuses or
+                free play incentives. These promotions allow new players to
+                explore the site's layout, test available games, and assess the
+                overall experience—before making any financial commitment.
+                <br />
+                <strong>Understanding Premier UK Online Casino Bonuses </strong
+                ><br />
+                With the wide range of bonuses and promotions on offer, it can
+                be difficult for players to decide which one is the best fit.
+                Here are some important questions to consider:
+                <br />
+                - What is the minimum deposit required to activate the bonus
+                match? <br />
+                - How many real-money bets need to be placed before bonus funds
+                can be withdrawn?
+                <br />
+                - How many free spins are included in the bonus package?
+              </p>
+            </div>
+
+            <div class="textBlock">
+              <h2>Online Casino Bonus Categories</h2>
+              <h3>Sign-Up Bonus</h3>
+              <p>
+                The sign-up bonus is one of the most commonly offered promotions
+                at online casinos. New players can receive a set amount of funds
+                once they complete the registration process. The deposit match
+                percentage varies between casinos, so it's essential for players
+                to compare different platforms before choosing where to play.
+              </p>
+              <h3>No Deposit Offer</h3>
+              <p>
+                No deposit bonuses, typically in the form of free credits, allow
+                new users to try out a casino’s games without any upfront
+                financial commitment. However, it's crucial to remember that
+                these bonuses often come with specific terms and conditions that
+                should be thoroughly reviewed before signing up.
+              </p>
+              <h3>Reload/Deposit Promotion</h3>
+              <p>
+                Reload or deposit bonuses are commonly extended to existing
+                players to encourage ongoing activity or to entice dormant users
+                back with additional deposits. New players can usually expect a
+                guaranteed minimum bonus on their first deposit. For example, a
+                player might receive 100 bonus credits for a deposit of 10.
+              </p>
+              <h3>Loyalty Program Bonus</h3>
+              <p>
+                The saying "loyalty pays off" applies to online casinos as well.
+                Just as land-based casinos reward their regular customers,
+                online casinos offer their loyal players perks and promotions
+                such as cashback on losses, milestone rewards in cash, or
+                additional free bets. These benefits are designed to reward and
+                retain long-term players.
+              </p>
+            </div>
+
+            <div class="textBlock">
+              <h2>Additional Online Casino Bonus Varieties</h2>
+              <h3>High Roller Incentive</h3>
+              <p>
+                High rollers, or players who make significant deposits or
+                regularly place large bets, often receive exclusive bonuses from
+                casinos. These bonuses vary between platforms and are usually
+                offered as a percentage of the player’s deposit.
+              </p>
+              <h3>Device-Specific Bonuses</h3>
+              <p>
+                With the rise of mobile gaming, many casinos now offer bonuses
+                tailored for players using mobile devices such as smartphones
+                and tablets. To incentivize users to play on the go, these
+                bonuses are typically only available to those who register
+                through mobile apps on Android or iOS devices.
+              </p>
+              <h3>Refer-a-Friend Bonus</h3>
+              <p>
+                Referral bonuses are a popular way for online casinos to attract
+                new players. Many casinos run referral programs that reward
+                existing players for bringing in new customers. For each
+                successful referral, the referring player typically receives a
+                bonus credited to their account.
+              </p>
+              <h3>Time-Sensitive Bonuses</h3>
+              <p>
+                It’s essential for players to keep track of the expiration dates
+                of their bonuses, as well as the validity period for any free
+                spins. Some deposit bonuses come with strict time limits for
+                qualifying deposits, and players should stay alert to these
+                time-sensitive conditions to avoid missing out on valuable
+                rewards.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <footer class="footer_b">
+          <div class="desktopLogoContainer">
+            <a href="/">
+              <span class="logo"
+                >UK<span style="color: #48d2cc">Casinos</span>Guide</span
+              >
+            </a>
+          </div>
+
+          <h4 class="footerTitle">Disclaimer</h4>
+          <div class="footerText">
+            <p class="footerDesc">
+              We operate exclusively as an aggregator and affiliate, meaning we
+              do not own or manage any online gambling platforms, nor do we
+              directly offer any betting services. Our role is to provide a
+              valuable resource with reviews, recommendations, and information
+              on licensed betting operators in the UK.
+              <br /><br />
+              As an aggregator, we present links and advertisements containing
+              affiliate referrals to various online gambling services. We do not
+              have any ownership or direct involvement with the operators
+              featured on our site.
+              <br /><br />
+              Please note that we are not liable for any losses or harm that may
+              result from interacting with these links. Through affiliate
+              agreements, we may earn commissions if users meet specific
+              conditions on the websites we link to.
+              <br /><br />
+              This site is intended for individuals aged 18 and over only.
+              Always engage in responsible gambling practices.
+            </p>
+          </div>
+
+          <div class="logosDiv">
+            <img src="/assets/img/plus18.png" alt="" />
+            <a
+              href="https://www.gamcare.org.uk/"
+              target="_blank"
+              rel="nofollow noopener"
+              ><img src="/assets/img/gamcare.png" alt=""
+            /></a>
+            <a
+              href="https://www.gamstop.co.uk/"
+              target="_blank"
+              rel="nofollow noopener"
+              ><img src="/assets/img/gamstop.png" alt=""
+            /></a>
+            <a
+              href="https://www.gambleaware.org/"
+              target="_blank"
+              rel="nofollow noopener"
+              ><img src="/assets/img/gambleaware.png" alt=""
+            /></a>
+            <a
+              href="https://gamblingtherapy.org/"
+              target="_blank"
+              rel="nofollow noopener"
+              ><img src="/assets/img/gamblingtherapy.png" alt=""
+            /></a>
+          </div>
+
+          <div class="logosDiv">
+            <a href="/contact_us/">Contact Us</a>
+            <a href="/responsible_gambling/">Responsible Gambling</a>
+            <a href="/privacy_policy/">Privacy Policy</a>
+            <a href="/terms_of_use/">Terms of Use</a>
+            <a href="/cookie_policy/">Cookie Policy</a>
+            <a href="/Registration/">Registration</a>
+            <a href="/Bonus/">Bonus </a>
+            <a href="/Exclusive/">Exclusive</a>
+            <a href="/Top/">Top 10</a>
+          </div>
+          <p class="footerBottom">
+            Copyright © 2025 UK Casinos Guide. All rights reserved.
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <!-- CookieConsent стиль і скрипт -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
+    <script>
+      window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+          palette: {
+            popup: {
+              background: "#2f2f2f",
+              text: "#ffffff",
+            },
+            button: {
+              background: "#04817b",
+              text: "#ffffff",
+            },
+          },
+          theme: "edgeless",
+          position: "bottom-left",
+          content: {
+            message: "We use cookies to improve your browsing experience.",
+            dismiss: "Accept",
+            link: "More info",
+            href: "/cookie_policy/",
+          },
+        });
+      });
+    </script>
+
+    <script>
+      const content = document.getElementById("page");
+      const popup = document.getElementById("agePopup");
+      const text = document.getElementById("agePopupText");
+      const buttons = document.getElementById("agePopupButtons");
+
+      function allowAccess() {
+        popup.style.display = "none";
+        if (content) content.style.display = "block";
+      }
+
+      function denyAccess() {
+        text.innerHTML = `Restricted Access<br>This content is intended for individuals aged 18 and over. Please leave our website.`;
+        buttons.remove();
+      }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        if (content) content.style.display = "none";
+        popup.style.display = "flex";
+      });
+    </script>
+
+    <script src="/assets/js/settings.js" type="module"></script>
+    <script src="/assets/js/main_script.js"></script>
+  </body>
+</html>
